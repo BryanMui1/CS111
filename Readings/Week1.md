@@ -54,7 +54,7 @@ How to look at groups: We want to isolate these sub groups so we can look at tha
 + Look at that groups role + that group's internal structure + that group's operating rules 
 
   *In more Depth:*
-  + Smaller components is easier to understand
+  + Smaller components are easier to understand
   + Grouping components to combine all closely related operations is better to combat side effects between groups
   + Big components are more efficient, however:
     - less communication between components reduces overhead
@@ -74,10 +74,29 @@ Well abstracted interfaces are:
   - ex. Instead of a cold and hot knob for faucet just a dial for temperature control
 
 ####  1.2.4. <a name='PowerfulAbstractions'></a>Powerful Abstractions
-####  1.2.5. <a name='InterfaceContents'></a>Interface Contents
+Actually its impossible to solve any hard problem if you tackle it from scratch
 
-tretertert
-rte
+Instead, just use a library and combine such tools to solve said problem
+
+Powerful Abstraction: An abstraction that can be applied to many situations. Including:
+* common paradigms(ex lock granularity) that universalizese some concept
+* common architectures(ex plug in modules) that can be used as fundamental models of new solutions
+* common mechanisms (ex registries, remote procedure calls) that allow us to visualize and construct solutions
+
+####  1.2.5. <a name='InterfaceContents'></a>Interface Contracts
+
+**Interface Cotracts:** A contract that implies that if you follow the specification for this interface, then the code will work no matter what
++ is essential so that we dont have to test every single combination of every single interface
+
+#### Progressive Refinement
+
+Building a large-scale software project is hard for many reasons
++ Estimating the work load, problems, and requirements is very hard
++ They usually lose support or become obselete before they are finished
+
+Instead we should take an iterative approach, starting from a small project and adding one feature at a time
+
+
 
 
 
