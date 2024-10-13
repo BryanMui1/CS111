@@ -1,2 +1,0 @@
-/home/cs111/CS111/Labs/lab0/proc_count.o
-
