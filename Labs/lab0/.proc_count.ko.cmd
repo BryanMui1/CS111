@@ -1,0 +1,1 @@
+cmd_/home/cs111/CS111/Labs/lab0/proc_count.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/cs111/CS111/Labs/lab0/proc_count.ko /home/cs111/CS111/Labs/lab0/proc_count.o /home/cs111/CS111/Labs/lab0/proc_count.mod.o;  true
