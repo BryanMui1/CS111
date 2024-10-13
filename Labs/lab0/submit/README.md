@@ -48,12 +48,8 @@ python -m unittest
 ```
 If everything is working propely, then there should be some sort of string output of 'OK' indicating that all tests were passed
 
-Report which kernel release version you tested your module on
-(hint: use `uname`, check for options with `man uname`).
-It should match release numbers as seen on https://www.kernel.org/.
-
 To test the current kernel module(for trouble shooting purposes), run
 ```shell
 uname -r -s -v
 ```
-TODO: kernel ver?
+This module was tested with the 5.14.8-arch1-1 kernel for ArchLinux
