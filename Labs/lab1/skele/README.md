@@ -1,0 +1,17 @@
+## UID: 506021334
+
+## Pipe Up
+
+Pipe Up is a C program that recreates the traditional pipe operator (|) in linux, allowing the user to execute multiple commands on the same line separated by spaces. 
+
+## Building
+
+Explain briefly how to build your program
+
+## Running
+
+Show an example run of your program, using at least two additional arguments, and what to expect
+
+## Cleaning up
+
+Explain briefly how to clean up all binary files
