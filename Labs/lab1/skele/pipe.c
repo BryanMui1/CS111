@@ -6,6 +6,7 @@
 
 int main(int argc, char *argv[])
 {
-	// TODO: it's all yours
-	return 0;
+  // TODO: it's all yours
+  cout << "Hello World!";
+  return 0;
 }
